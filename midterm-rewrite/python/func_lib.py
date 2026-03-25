@@ -20,7 +20,7 @@ def normalise(inputlist):
 
 
 def expo_distribution(list_len=12):
-    return normalise([math.e ** (item / 12) for item in range(list_len)])
+    return normalise([math.e ** (item / list_len) for item in range(list_len)])
 
 
 # DEFINING ROW AND MATRIX OPERATIONS

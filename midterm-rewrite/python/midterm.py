@@ -2,6 +2,8 @@
 # - ARGUMENTS FROM COMMAND LINE
 # ------------------------------
 
+import func_lib
+import random
 import argparse
 
 if __name__ == "__main__":
@@ -33,8 +35,6 @@ chain_len = 20
 # - CUSTOM BANKS AND FUNCTIONS
 # ----------------------------------
 
-import func_lib
-import random
 
 dur_bank = [2**x for x in range(5)]
 
