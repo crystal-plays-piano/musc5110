@@ -62,6 +62,18 @@ def matrix_from_row(rowlist, supersetsize=12):
     return matrix
 
 
+def xinvert_matrix(matrix):
+    return [retrograde(row) for row in matrix]
+
+
+def yinvert_matrix(matrix):
+    return retrograde(matrix)
+
+
+def invert_matrix(matrix):
+    return yinvert_matrix(xinvert_matrix(matrix))
+
+
 def prime_row(matrix, startclass):
     return matrix[[row[0] for row in matrix].index(startclass)]
 
@@ -75,9 +87,9 @@ def random_row():
     return [random_gen % 4, random_gen % 12]
 
 
-def interpret_random_row(matrix, random_row):
-    print(random_row)
-    return [
+def trad_interpret_random_row(matrix, random_row):
+    # print(random_row)
+    returnvalue = [
         lambda to_apply_startclass: prime_row(matrix, to_apply_startclass),
         lambda to_apply_startclass: inversion_row(matrix, to_apply_startclass),
         lambda to_apply_startclass: retrograde(prime_row(matrix, to_apply_startclass)),
@@ -85,6 +97,18 @@ def interpret_random_row(matrix, random_row):
             inversion_row(matrix, to_apply_startclass)
         ),
     ][random_row[0]](random_row[1])
+    # print(returnvalue)
+    return returnvalue
+
+
+def start_interpret_random_row(matrix, random_row):
+    # print(random_row)
+    if random_row[0] < 2:
+        return trad_interpret_random_row(matrix, random_row)
+    else:
+        return trad_interpret_random_row(
+            invert_matrix(matrix), [random_row[0] - 2, random_row[1]]
+        )
 
 
 # DEFINING LEXICAL OPERATIONS
@@ -104,25 +128,30 @@ testrow = create_row()
 
 # print(testrow)
 
-print(lexify(testrow))
+# print(lexify(testrow))
 
 # print(matrix_from_row(testrow))
 
-matrixprintfile = open("matrix.txt", "w")
+# matrixprintfile = open("matrix.txt", "w")
+#
+# matrixprintfile.writelines(file_print_matrix(matrix_from_row(testrow)))
+#
+# matrixprintfile.write("\n\n\n")
+#
+#
+# matrixprintfile.writelines(file_print_matrix(invert_matrix(matrix_from_row(testrow))))
+#
+# matrixprintfile.close()
 
-matrixprintfile.writelines(file_print_matrix(matrix_from_row(testrow)))
-
-matrixprintfile.close()
-
-print(lexify(prime_row(matrix_from_row((testrow)), 4)))
-
-print(lexify(inversion_row(matrix_from_row((testrow)), 4)))
-
-print(lexify(retrograde(prime_row(matrix_from_row(testrow), 4))))
-
-print(lexify(retrograde(inversion_row(matrix_from_row(testrow), 4))))
-
-print(lexify(interpret_random_row(matrix_from_row(testrow), random_row())))
+# print(lexify(prime_row(matrix_from_row((testrow)), 4)))
+#
+# print(lexify(inversion_row(matrix_from_row((testrow)), 4)))
+#
+# print(lexify(retrograde(prime_row(matrix_from_row(testrow), 4))))
+#
+# print(lexify(retrograde(inversion_row(matrix_from_row(testrow), 4))))
+#
+# print(lexify(trad_interpret_random_row(matrix_from_row(testrow), random_row())))
 
 
 # DEFINING PROBABILITY STUFF
@@ -131,13 +160,127 @@ print(lexify(interpret_random_row(matrix_from_row(testrow), random_row())))
 # - chkpdf takes a die-roll, checks it against a list of probabilities, returns the index of the list that matches
 # - pdfchk is an implementation of a weighted discrete random variable: the list is the probability distribution
 # - intent: call pdfchk with num_inpt a random() call and list_inpt the desired weigted variable
-def chkpdf(num_inpt: float, list_inpt: list):
-    prob = num_inpt
-    pdf = list_inpt
 
+
+def chkpdf(prob: float, pdf: list) -> int:
     for index in range(len(pdf) + 1):
         if prob < sum(pdf[0:index]):
-            return index - 1
+            return int(index - 1)
+
+
+def cdf(distro_list):
+    return [round(sum(distro_list[:index]), 2) for index in range(len(distro_list) + 1)]
+
+
+# def segment(rowlist, startindex=None):
+#     if startindex is not None:
+#         segment_gen = rowlist[
+#             rowlist.index(startindex) : min(
+#                 len(rowlist[startindex:]) - 1,
+#                 chkpdf(random.random(), expo_distribution()),
+#             )
+#         ]
+#         # while len(segment_gen) < 4:
+#         #     print(segment_gen)
+#         #     segment_gen = rowlist[
+#         #         startindex : max(
+#         #             len(rowlist[startindex:]) - 1,
+#         #             chkpdf(random.random(), expo_distribution()),
+#         #         )
+#         #     ]
+#         return segment_gen
+#
+#     else:
+#         segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
+#         while len(segment_gen) < 4:
+#             segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
+#         return segment_gen
+#
+def segment(rowlist):
+    segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
+    while len(segment_gen) < 3:
+        segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
+    return segment_gen
+
+
+# print(expo_distribution())
+# print(cdf(expo_distribution()))
+# print(chkpdf(random.random(), expo_distribution()))
+# print(testrow[: chkpdf(random.random(), expo_distribution())])
+
+new_segment = segment(testrow)
+
+# print(new_segment)
+
+new_row = start_interpret_random_row(
+    matrix_from_row(testrow), [random.randrange(4), new_segment[-1]]
+)
+
+# print(new_row)
+#
+# print(segment(new_row))
+
+
+def make_durations(size):
+    return [random.choice([1, 2, 3]) for _ in range(size)]
+
+
+def make_flat_voice():
+    # if tone_row is None:
+    #     tone_row = create_row()
+
+    tone_row = create_row()
+
+    # print(tone_row)
+
+    flat_voice_matrix = matrix_from_row(tone_row)
+
+    rows_bank = [random_row()]
+
+    # print(rows_bank)
+
+    pitches = segment(trad_interpret_random_row(flat_voice_matrix, rows_bank[-1]))
+
+    # print(new_segment)
+
+    while len(pitches) < 40:
+        rows_bank += [[random.randrange(4), pitches[-1]]]
+
+        pitches += segment(
+            start_interpret_random_row(flat_voice_matrix, rows_bank[-1])[1:]
+        )
+
+    print(rows_bank)
+
+    return list(zip(pitches, make_durations(len(pitches))))
+
+
+voice1 = make_flat_voice()
+
+print(voice1)
+
+print(len(voice1))
+
+
+# make_flat_voice()
+
+
+def concat_row(rowlist, new_row):
+    return rowlist[: (-1 * (rowlist[::-1].index(new_row[0])))] + new_row
+
+
+def cycle(inputlist, amount=1):
+    return inputlist[amount:] + inputlist[:amount]
+
+
+def render_row(row_coordinates):
+
+def weighting(rowlist, degree=2):
+    print(cycle(rowlist))
+    return ((len(rowlist) - cycle(rowlist)[::-1].index(0)) / len(rowlist)) ** degree
+
+
+print(weighting(list(range(12))))
 
 
 def mkpdf(size_inpt: int):
