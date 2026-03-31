@@ -2,7 +2,9 @@ import random
 import math
 
 
-# DEFINING MATHEMATICAL OPERATIONS
+# ----------------------------------
+# - MATH FUNCTIONS
+# ----------------------------------
 
 
 def truncate(digit):
@@ -19,11 +21,9 @@ def normalise(inputlist):
     return [round(item, 2) for item in tmplist]
 
 
-def expo_distribution(list_len=12):
-    return normalise([math.e ** (item / list_len) for item in range(list_len)])
-
-
-# DEFINING ROW AND MATRIX OPERATIONS
+# ----------------------------------
+# - TONE ROW FUNCTIONS
+# ----------------------------------
 
 
 def create_row(superset=list(range(12))):
@@ -54,24 +54,17 @@ def retrograde(rowlist):
     return rowlist[::-1]
 
 
+# ----------------------------------
+# - MATRIX OPERATIONS
+# ----------------------------------
+
+
 def matrix_from_row(rowlist, supersetsize=12):
     matrix = [
         transpose_to(rowlist, value, supersetsize)
         for value in invert_around_first(rowlist)
     ]
     return matrix
-
-
-def xinvert_matrix(matrix):
-    return [retrograde(row) for row in matrix]
-
-
-def yinvert_matrix(matrix):
-    return retrograde(matrix)
-
-
-def invert_matrix(matrix):
-    return yinvert_matrix(xinvert_matrix(matrix))
 
 
 def prime_row(matrix, startclass):
@@ -82,13 +75,12 @@ def inversion_row(matrix, startclass):
     return [row[matrix[0].index(startclass)] for row in matrix]
 
 
-def random_row():
+def random_row() -> list[int]:
     random_gen = random.choice(range(48))
-    return [random_gen % 4, random_gen % 12]
+    return [math.floor(random_gen / 12), random_gen % 12]
 
 
 def trad_interpret_random_row(matrix, random_row):
-    # print(random_row)
     returnvalue = [
         lambda to_apply_startclass: prime_row(matrix, to_apply_startclass),
         lambda to_apply_startclass: inversion_row(matrix, to_apply_startclass),
@@ -97,21 +89,12 @@ def trad_interpret_random_row(matrix, random_row):
             inversion_row(matrix, to_apply_startclass)
         ),
     ][random_row[0]](random_row[1])
-    # print(returnvalue)
     return returnvalue
 
 
-def start_interpret_random_row(matrix, random_row):
-    # print(random_row)
-    if random_row[0] < 2:
-        return trad_interpret_random_row(matrix, random_row)
-    else:
-        return trad_interpret_random_row(
-            invert_matrix(matrix), [random_row[0] - 2, random_row[1]]
-        )
-
-
-# DEFINING LEXICAL OPERATIONS
+# ----------------------------------
+# - LEXICAL FUNCTIONS
+# ----------------------------------
 
 
 def lexify(rownumberslist):
@@ -121,200 +104,180 @@ def lexify(rownumberslist):
 
 
 def file_print_matrix(matrix):
-    return [(" ".join([str(item) for item in lexify(row)]) + "\n") for row in matrix]
+    return [(",".join([str(item) for item in lexify(row)]) + "\n") for row in matrix]
 
 
-testrow = create_row()
-
-# print(testrow)
-
-# print(lexify(testrow))
-
-# print(matrix_from_row(testrow))
-
-# matrixprintfile = open("matrix.txt", "w")
-#
-# matrixprintfile.writelines(file_print_matrix(matrix_from_row(testrow)))
-#
-# matrixprintfile.write("\n\n\n")
-#
-#
-# matrixprintfile.writelines(file_print_matrix(invert_matrix(matrix_from_row(testrow))))
-#
-# matrixprintfile.close()
-
-# print(lexify(prime_row(matrix_from_row((testrow)), 4)))
-#
-# print(lexify(inversion_row(matrix_from_row((testrow)), 4)))
-#
-# print(lexify(retrograde(prime_row(matrix_from_row(testrow), 4))))
-#
-# print(lexify(retrograde(inversion_row(matrix_from_row(testrow), 4))))
-#
-# print(lexify(trad_interpret_random_row(matrix_from_row(testrow), random_row())))
-
-
-# DEFINING PROBABILITY STUFF
-
-
-# - chkpdf takes a die-roll, checks it against a list of probabilities, returns the index of the list that matches
-# - pdfchk is an implementation of a weighted discrete random variable: the list is the probability distribution
-# - intent: call pdfchk with num_inpt a random() call and list_inpt the desired weigted variable
+# ----------------------------------
+# - PROBABILITY FUNCTIONS
+# ----------------------------------
 
 
 def chkpdf(prob: float, pdf: list) -> int:
     for index in range(len(pdf) + 1):
         if prob < sum(pdf[0:index]):
             return int(index - 1)
+    return -1
 
 
-def cdf(distro_list):
-    return [round(sum(distro_list[:index]), 2) for index in range(len(distro_list) + 1)]
-
-
-# def segment(rowlist, startindex=None):
-#     if startindex is not None:
-#         segment_gen = rowlist[
-#             rowlist.index(startindex) : min(
-#                 len(rowlist[startindex:]) - 1,
-#                 chkpdf(random.random(), expo_distribution()),
-#             )
-#         ]
-#         # while len(segment_gen) < 4:
-#         #     print(segment_gen)
-#         #     segment_gen = rowlist[
-#         #         startindex : max(
-#         #             len(rowlist[startindex:]) - 1,
-#         #             chkpdf(random.random(), expo_distribution()),
-#         #         )
-#         #     ]
-#         return segment_gen
-#
-#     else:
-#         segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
-#         while len(segment_gen) < 4:
-#             segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
-#         return segment_gen
-#
-def segment(rowlist):
-    segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
-    while len(segment_gen) < 3:
-        segment_gen = rowlist[: chkpdf(random.random(), expo_distribution())]
-    return segment_gen
-
-
-# print(expo_distribution())
-# print(cdf(expo_distribution()))
-# print(chkpdf(random.random(), expo_distribution()))
-# print(testrow[: chkpdf(random.random(), expo_distribution())])
-
-new_segment = segment(testrow)
-
-# print(new_segment)
-
-new_row = start_interpret_random_row(
-    matrix_from_row(testrow), [random.randrange(4), new_segment[-1]]
-)
-
-# print(new_row)
-#
-# print(segment(new_row))
+# ----------------------------------
+# - MISC FUNCTIONS
+# ----------------------------------
 
 
 def make_durations(size):
     return [random.choice([1, 2, 3]) for _ in range(size)]
 
 
-def make_flat_voice():
-    # if tone_row is None:
-    #     tone_row = create_row()
-
-    tone_row = create_row()
-
-    # print(tone_row)
-
-    flat_voice_matrix = matrix_from_row(tone_row)
-
-    rows_bank = [random_row()]
-
-    # print(rows_bank)
-
-    pitches = segment(trad_interpret_random_row(flat_voice_matrix, rows_bank[-1]))
-
-    # print(new_segment)
-
-    while len(pitches) < 40:
-        rows_bank += [[random.randrange(4), pitches[-1]]]
-
-        pitches += segment(
-            start_interpret_random_row(flat_voice_matrix, rows_bank[-1])[1:]
-        )
-
-    print(rows_bank)
-
-    return list(zip(pitches, make_durations(len(pitches))))
+def concat_row(rowlist: list[int], new_row: list[int]) -> list[int]:
+    return rowlist[: (-1 * (rowlist[::-1].index(new_row[0]))) - 1] + new_row
 
 
-voice1 = make_flat_voice()
-
-print(voice1)
-
-print(len(voice1))
-
-
-# make_flat_voice()
+def listsetvalue(inputlist: list, value, index: int) -> None:
+    try:
+        inputlist[index] = value
+    except IndexError:
+        inputlist += [None] * (index + 1 - len(inputlist))
+        inputlist[index] = value
 
 
-def concat_row(rowlist, new_row):
-    return rowlist[: (-1 * (rowlist[::-1].index(new_row[0])))] + new_row
+def coordinate_to_row_number(row_coordinates) -> int:
+    return (row_coordinates[0] * 12) + row_coordinates[1]
+
+
+def row_number_to_coordinate(row_number: int) -> list[int]:
+    try:
+        return [math.floor(row_number / 12), row_number % 12]
+    finally:
+        pass
 
 
 def cycle(inputlist, amount=1):
     return inputlist[amount:] + inputlist[:amount]
 
 
-def render_row(row_coordinates):
-
-def weighting(rowlist, degree=2):
-    print(cycle(rowlist))
-    return ((len(rowlist) - cycle(rowlist)[::-1].index(0)) / len(rowlist)) ** degree
+# ----------------------------------
+# - FLAT VOICE GENERATION
+# ----------------------------------
 
 
-print(weighting(list(range(12))))
+def rewrite_flat_voice(tone_row: list = []):
+    if len(tone_row) == 0:
+        tone_row = create_row()
+
+    flat_voice_matrix = matrix_from_row(tone_row)
+
+    rows_bank = [random_row()]
+
+    rows_bank_positions = [coordinate_to_row_number(elem) for elem in rows_bank]
+
+    pitches = trad_interpret_random_row(flat_voice_matrix, rows_bank[-1])
+
+    while not (
+        (len(pitches) >= 64) and ((rows_bank[-1][0] < 2) and rows_bank[-1][1] == 0)
+    ):
+        rows_bank += [random_row()]
+
+        pitches = concat_row(
+            pitches, trad_interpret_random_row(flat_voice_matrix, rows_bank[-1])
+        )
+        listsetvalue(
+            rows_bank_positions,
+            coordinate_to_row_number(rows_bank[-1]),
+            len(pitches) - 12,
+        )
+
+        listsetvalue(rows_bank_positions, None, len(rows_bank_positions) + 14)
+
+    durations = make_durations(len(pitches))
+
+    return list(zip(zip(pitches, durations), rows_bank_positions))
 
 
-def mkpdf(size_inpt: int):
-    size = size_inpt
-    pdf_no_norm = [random.random() for _ in range(size)]
-    norm_factor = sum(pdf_no_norm)
-    pdf_norm_frac = [(item / norm_factor) for item in pdf_no_norm]
-    pdf_norm = [math.floor(item * 100) / 100 for item in pdf_norm_frac]
-    offset = round(1 - sum(pdf_norm), 2)
-    pdf_norm[-1] = round(pdf_norm[-1] + offset, 2)
-    return pdf_norm
+# ----------------------------------
+# - MARKOV FUNCTIONS
+# ----------------------------------
 
 
-def mkmatrix(size_inpt: int):
-    size = size_inpt
-    matrix = []
-    for _ in range(size):
-        matrix.append(mkpdf(size))
-    return matrix
+def weighting_function(prime_form_zero: list[int], rowlist, degree=2) -> float:
+    return (
+        (len(rowlist) - cycle(rowlist)[::-1].index(prime_form_zero[0])) / len(rowlist)
+    ) ** degree
 
 
-def mkvchn(size_inpt: int, matrix_inpt: list):
-    size = size_inpt
-    matrix = matrix_inpt
-    chain = []
-    initial_index = random.randint(0, len(matrix[0]) - 1)
-    chain.append(initial_index)
-    for iter in range(size - 1):
-        randx = random.random()
-        chain.append(chkpdf(randx, matrix[chain[iter]]))
-    return chain
+def concat_weight(
+    prime_form_zero: list[int], rowlistone: list[int], rowlisttwo: list[int]
+) -> float:
+    try:
+        return weighting_function(
+            prime_form_zero, rowlisttwo[rowlisttwo.index(rowlistone[-1]) :]
+        )
+    except ValueError:
+        return 0
 
 
-def lyprint(lines_inpt: list):
-    lines = lines_inpt
-    lylines = ["    " + line + "\n" for line in lines]
-    return lylines
+def markov_pdf(rowlist_prime_zero: list, row_number: int) -> list[float]:
+    matrix = matrix_from_row(rowlist_prime_zero)
+
+    rowlist = trad_interpret_random_row(matrix, row_number_to_coordinate(row_number))
+
+    return normalise(
+        [
+            concat_weight(
+                rowlist_prime_zero,
+                rowlist,
+                trad_interpret_random_row(matrix, row_number_to_coordinate(rownumber)),
+            )
+            for rownumber in range(48)
+        ]
+    )
+
+
+def markov_matrix(rowlist_prime_zero: list) -> list[list[float]]:
+    return [markov_pdf(rowlist_prime_zero, rownumber) for rownumber in range(48)]
+
+
+# ----------------------------------
+# - MARKOV VOICE GENERATION
+# ----------------------------------
+
+
+def markov_voice(tonerow: list = []):
+    if len(tonerow) == 0:
+        tonerow = create_row()
+
+    tone_matrix = matrix_from_row(tonerow)
+
+    rows_bank = [random_row()]
+
+    rows_bank_positions = [coordinate_to_row_number(elem) for elem in rows_bank]
+
+    markov_voice_matrix = markov_matrix(tonerow)
+
+    pitches = trad_interpret_random_row(tone_matrix, rows_bank[-1])
+
+    while not (
+        (len(pitches) > 64) and (coordinate_to_row_number(rows_bank[-1]) in [0, 12])
+    ):
+        rows_bank += [
+            row_number_to_coordinate(
+                chkpdf(
+                    random.random(),
+                    markov_voice_matrix[coordinate_to_row_number(rows_bank[-1])],
+                )
+            )
+        ]
+
+        pitches = concat_row(
+            pitches, trad_interpret_random_row(tone_matrix, rows_bank[-1])
+        )
+        listsetvalue(
+            rows_bank_positions,
+            coordinate_to_row_number(rows_bank[-1]),
+            len(pitches) - 12,
+        )
+
+    listsetvalue(rows_bank_positions, None, len(rows_bank_positions) + 14)
+
+    durations = make_durations(len(pitches))
+
+    return list(zip(zip(pitches, durations), rows_bank_positions))

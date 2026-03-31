@@ -1,0 +1,12 @@
+@image{aa/lily-60703aa8-1}
+@image{aa/lily-60703aa8-2}
+@image{aa/lily-60703aa8-3}
+@image{aa/lily-60703aa8-4}
+@image{aa/lily-60703aa8-5}
+@image{aa/lily-60703aa8-6}
+@image{aa/lily-60703aa8-7}
+@image{aa/lily-60703aa8-8}
+@image{aa/lily-60703aa8-9}
+@image{aa/lily-60703aa8-10}
+@image{aa/lily-60703aa8-11}
+@c eof
