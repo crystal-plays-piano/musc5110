@@ -1,0 +1,175 @@
+
+\version "2.24.4" 
+
+
+\new ChoirStaff <<
+
+
+
+\new Staff <<
+  \new Voice \with {
+  \remove Note_heads_engraver
+  \consists Completion_heads_engraver
+  \remove Rest_engraver
+  \consists Completion_rest_engraver
+  }
+  {
+  \clef alto
+  \time 4/4
+  {
+    f8-"1"
+    a16-"2"
+    cis16-"3"
+    e2-"4"
+    e16\f-"5"
+    d1\ff-"6"
+    e1-"7"
+    ais2-"8"
+    a16-"9"
+    b4-"10"
+    fis1-"11"
+    dis1-"12"
+    gis1-"13"
+    a1-"14"
+    dis8-"15"
+    a8-"16"
+    g16\pp-"17"
+    dis16-"18"
+    g4-"19"
+    cis4\mp-"20"
+    f16-"21"
+    a16-"22"
+    ais2\pp-"23"
+    c4\mf-"24"
+    d16-"25"
+    gis16-"26"
+    a16-"27"
+    dis4-"28"
+    c4\mp-"29"
+    e8-"30"
+    ais8\mp-"31"
+    dis2-"32"
+    b4-"33"
+    e16-"34"
+    e2-"35"
+    a16-"36"
+    e2-"37"
+    b2-"38"
+    dis16-"39"
+    cis4-"40"
+}
+}
+>>
+
+
+\new Staff <<
+  \new Voice \with {
+  \remove Note_heads_engraver
+  \consists Completion_heads_engraver
+  \remove Rest_engraver
+  \consists Completion_rest_engraver
+  }
+  {
+  \clef alto
+  \time 4/4
+  {
+    fis2-"1"
+    a2\p-"2"
+    gis4-"3"
+    d8-"4"
+    dis2-"5"
+    gis1-"6"
+    g2-"7"
+    fis8-"8"
+    e2-"9"
+    f4-"10"
+    fis4-"11"
+    g4\pp-"12"
+    e16-"13"
+    g2-"14"
+    f4-"15"
+    dis8\p-"16"
+    c2-"17"
+    a16-"18"
+    b4-"19"
+    cis1-"20"
+    dis1-"21"
+    dis4\mp-"22"
+    d1-"23"
+    g16-"24"
+    c16-"25"
+    dis2-"26"
+    dis2-"27"
+    b16\f-"28"
+    d4-"29"
+    cis8-"30"
+    dis4\f-"31"
+    cis16-"32"
+    ais8-"33"
+    gis16-"34"
+    b2-"35"
+    ais1-"36"
+    f2\ff-"37"
+    gis16\ff-"38"
+    f8-"39"
+    gis8-"40"
+}
+}
+>>
+
+
+\new Staff <<
+  \new Voice \with {
+  \remove Note_heads_engraver
+  \consists Completion_heads_engraver
+  \remove Rest_engraver
+  \consists Completion_rest_engraver
+  }
+  {
+  \clef alto
+  \time 4/4
+  {
+    gis16-"1"
+    g8-"2"
+    dis1-"3"
+    b16-"4"
+    dis4\f-"5"
+    d8-"6"
+    g1-"7"
+    c2\mf-"8"
+    f4-"9"
+    g2\p-"10"
+    dis16-"11"
+    d1-"12"
+    a8-"13"
+    e8-"14"
+    cis8-"15"
+    dis16\ff-"16"
+    dis1-"17"
+    d1-"18"
+    dis1-"19"
+    cis16-"20"
+    c16-"21"
+    b2-"22"
+    e4-"23"
+    dis1-"24"
+    f8-"25"
+    g4-"26"
+    fis8\mf-"27"
+    gis8\mp-"28"
+    e16-"29"
+    a8-"30"
+    c1\f-"31"
+    ais1-"32"
+    b16-"33"
+    gis1-"34"
+    ais1-"35"
+    g8\mf-"36"
+    gis2-"37"
+    f1-"38"
+    c4-"39"
+    fis8-"40"
+}
+}
+>>
+>>

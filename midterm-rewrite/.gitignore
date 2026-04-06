@@ -1,0 +1,9 @@
+*.pdf
+
+*.mid
+
+
+
+latex/lilyrender
+
+python/__pycache__

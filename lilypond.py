@@ -1,0 +1,2 @@
+one_octave = ["c", "cis", "d", "dis", "e", "f", "fis", "g", "gis", "a", "ais", "b"]
+
