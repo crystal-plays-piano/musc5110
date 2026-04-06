@@ -1,2 +1,0 @@
-@image{fb/lily-ae5fba22-1}
-@c eof

@@ -1,2 +1,0 @@
-@image{a5/lily-1047ab9a-1}
-@c eof

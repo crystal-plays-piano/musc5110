@@ -1,2 +1,0 @@
-@image{db/lily-0156b7da-1}
-@c eof

@@ -1,6 +1,0 @@
-@image{a6/lily-2b45f55f-1}
-@image{a6/lily-2b45f55f-2}
-@image{a6/lily-2b45f55f-3}
-@image{a6/lily-2b45f55f-4}
-@image{a6/lily-2b45f55f-5}
-@c eof

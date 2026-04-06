@@ -1,5 +1,0 @@
-@image{21/lily-05841f49-1}
-@image{21/lily-05841f49-2}
-@image{21/lily-05841f49-3}
-@image{21/lily-05841f49-4}
-@c eof
