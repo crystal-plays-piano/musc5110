@@ -26,17 +26,17 @@
   \time 4/4
   {
    dis'!
-   a'!
-   g'!
-   f'!
-   fis'!
-   d'!
    e'!
-   b'!
-   cis'!
+   d'!
+   g'!
    gis'!
-   ais'!
+   f'!
+   cis'!
    c'!
+   a'!
+   fis'!
+   b'!
+   ais'!
 }
 }
 >>
