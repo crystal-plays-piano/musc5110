@@ -25,18 +25,18 @@
   \clef treble
   \time 4/4
   {
-   b'!
-   c'!
-   gis'!
-   cis'!
-   dis'!
-   e'!
-   f'!
    ais'!
    d'!
-   g'!
-   a'!
+   c'!
    fis'!
+   dis'!
+   g'!
+   f'!
+   e'!
+   a'!
+   cis'!
+   b'!
+   gis'!
 }
 }
 >>

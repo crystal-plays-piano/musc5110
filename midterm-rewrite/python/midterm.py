@@ -231,27 +231,44 @@ markov_chain_printfile.close()
 # - WRITING MARKOV CHAIN TABLE CSV
 # ---------------------------------------
 
-markov_table_printfile = open("markov-table.csv", "w")
 
-matrix_print = []
+markov_seg1_printfile = open("./markov-printfiles/seg1.csv", "w")
+markov_seg2_printfile = open("./markov-printfiles/seg2.csv", "w")
+markov_seg3_printfile = open("./markov-printfiles/seg3.csv", "w")
+markov_seg4_printfile = open("./markov-printfiles/seg4.csv", "w")
 
-matrix_print.append(
-    "x," + ",".join(([str(i + 1) for i in range(len(voice_markov_matrix))])) + "\n"
-)
+markov_files = [
+    markov_seg1_printfile,
+    markov_seg2_printfile,
+    markov_seg3_printfile,
+    markov_seg4_printfile,
+]
 
-for i in range(len(voice_markov_matrix)):
+for printfile in range(len(markov_files)):
+    matrix_print = []
+
     matrix_print.append(
-        str(i + 1)
-        + ","
-        + ",".join(
-            [str(voice_markov_matrix[i][j]) for j in range(len(voice_markov_matrix))]
-        )
+        "x,"
+        + ",".join(([str(i + 1) for i in range(printfile * 12, (printfile + 1) * 12)]))
         + "\n"
     )
 
-markov_table_printfile.writelines(matrix_print)
+    for i in range(len(voice_markov_matrix)):
+        matrix_print.append(
+            str(i + 1)
+            + ","
+            + ",".join(
+                [
+                    str(voice_markov_matrix[i][j])
+                    for j in range(printfile * 12, (printfile + 1) * 12)
+                ]
+            )
+            + "\n"
+        )
 
-markov_table_printfile.close()
+    markov_files[printfile].writelines(matrix_print)
+
+    markov_files[printfile].close()
 
 
 # ---------------------------------------
