@@ -2,6 +2,7 @@
 
 *.mid
 
+!assignment.pdf
 
 
 latex/lilyrender
