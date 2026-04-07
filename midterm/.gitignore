@@ -1,0 +1,10 @@
+*.pdf
+
+*.mid
+
+!assignment-print.pdf
+
+
+latex/lilyrender
+
+python/__pycache__
