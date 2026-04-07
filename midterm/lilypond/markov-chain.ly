@@ -2,6 +2,14 @@
 \version "2.24.4" 
 
 
+
+\score{
+
+ 
+
+\layout{}
+
+
 \new ChoirStaff <<
 
 
@@ -14,162 +22,110 @@
   \consists Completion_rest_engraver
   }
   {
-  \clef alto
+  \clef treble
   \time 4/4
   {
-    e2-"1"
-    fis1-"2"
-    fis1-"3"
-    dis1-"4"
-    f8-"5"
-    f8-"6"
-    e2-"7"
-    dis1-"8"
-    dis1-"9"
-    dis1-"10"
-    dis1-"11"
-    dis1-"12"
-    dis1-"13"
-    e2-"14"
-    fis1-"15"
-    dis1-"16"
-    cis16-"17"
-    fis1-"18"
-    f8-"19"
-    dis1-"20"
-    a16-"21"
-    e2-"22"
-    e2-"23"
-    fis1-"24"
-    fis1-"25"
-    a16-"26"
-    f8-"27"
-    e2-"28"
-    e2-"29"
-    e2-"30"
-    fis1-"31"
-    fis1-"32"
-    f8-"33"
-    dis1-"34"
-    e2-"35"
-    f8-"36"
-    e2-"37"
-    fis1-"38"
-    fis1-"39"
-    f8-"40"
-}
-}
->>
-
-
-\new Staff <<
-  \new Voice \with {
-  \remove Note_heads_engraver
-  \consists Completion_heads_engraver
-  \remove Rest_engraver
-  \consists Completion_rest_engraver
-  }
-  {
-  \clef alto
-  \time 4/4
-  {
-    d8-"1"
-    fis4-"2"
-    fis4-"3"
-    g4\pp-"4"
-    fis2-"5"
-    fis2-"6"
-    d8-"7"
-    g4\pp-"8"
-    g4\pp-"9"
-    g4\pp-"10"
-    g4\pp-"11"
-    g4\pp-"12"
-    g4\pp-"13"
-    d8-"14"
-    fis4-"15"
-    g4\pp-"16"
-    gis4-"17"
-    fis4-"18"
-    fis2-"19"
-    g4\pp-"20"
-    a2\p-"21"
-    d8-"22"
-    d8-"23"
-    fis4-"24"
-    fis4-"25"
-    a2\p-"26"
-    fis2-"27"
-    d8-"28"
-    d8-"29"
-    d8-"30"
-    fis4-"31"
-    fis4-"32"
-    fis2-"33"
-    g4\pp-"34"
-    d8-"35"
-    fis2-"36"
-    d8-"37"
-    fis4-"38"
-    fis4-"39"
-    fis2-"40"
-}
-}
->>
-
-
-\new Staff <<
-  \new Voice \with {
-  \remove Note_heads_engraver
-  \consists Completion_heads_engraver
-  \remove Rest_engraver
-  \consists Completion_rest_engraver
-  }
-  {
-  \clef alto
-  \time 4/4
-  {
-    b16-"1"
-    dis16-"2"
-    dis16-"3"
-    d1-"4"
-    gis16-"5"
-    gis16-"6"
-    b16-"7"
-    d1-"8"
-    d1-"9"
-    d1-"10"
-    d1-"11"
-    d1-"12"
-    d1-"13"
-    b16-"14"
-    dis16-"15"
-    d1-"16"
-    dis1-"17"
-    dis16-"18"
-    gis16-"19"
-    d1-"20"
-    g8-"21"
-    b16-"22"
-    b16-"23"
-    dis16-"24"
-    dis16-"25"
-    g8-"26"
-    gis16-"27"
-    b16-"28"
-    b16-"29"
-    b16-"30"
-    dis16-"31"
-    dis16-"32"
-    gis16-"33"
-    d1-"34"
-    b16-"35"
-    gis16-"36"
-    b16-"37"
-    dis16-"38"
-    dis16-"39"
-    gis16-"40"
+   e'!2-"I4"
+   dis'!2
+   f'!2
+   c'!2.
+   b'!2
+   d'!2.
+   fis'!2
+   g'!2.
+   ais'!4
+   cis'!4
+   gis'!2
+   a'!2-"P9"
+   ais'!2.
+   gis'!2
+   cis'!2
+   d'!2
+   b'!2.
+   g'!2
+   fis'!4
+   dis'!2
+   c'!4-"RI7"
+   b'!4
+   e'!4
+   cis'!2.
+   ais'!2
+   a'!2
+   f'!2
+   d'!2.
+   dis'!2.
+   gis'!2.
+   fis'!2.
+   g'!2-"RI2"
+   fis'!2.
+   b'!2
+   gis'!2
+   f'!2.
+   e'!2
+   c'!2.
+   a'!2.-"RI4"
+   gis'!2.
+   cis'!2
+   ais'!4-"I10"
+   a'!4
+   b'!4
+   fis'!2
+   f'!2.
+   gis'!4
+   c'!4
+   cis'!2
+   e'!2.
+   g'!4-"R0"
+   gis'!4
+   dis'!2
+   fis'!2.
+   a'!4
+   ais'!2-"R3"
+   b'!2
+   fis'!2.-"I6"
+   f'!2
+   g'!2
+   d'!2.
+   cis'!2.
+   e'!2.
+   gis'!2.-"P8"
+   a'!4
+   g'!4
+   c'!2-"R5"
+   cis'!4
+   gis'!4
+   b'!4
+   d'!2.
+   dis'!4
+   g'!2
+   ais'!4
+   a'!2
+   e'!2.-"RI11"
+   dis'!4
+   gis'!4
+   f'!4
+   d'!4
+   cis'!2.
+   a'!2.
+   fis'!2.
+   g'!2.
+   c'!4-"P0"
+   cis'!2.
+   b'!2
+   e'!4
+   f'!4
+   d'!2.
+   ais'!4
+   a'!4
+   fis'!2.
+   dis'!2
+   gis'!2.
+   g'!4
 }
 }
 >>
 >>
+
+\midi{}
+
+}
