@@ -15,6 +15,9 @@ popd || exit
 pushd lilypond || exit
 lilypond *.ly
 rm *.pdf
+
 popd || exit
 
 cp latex/lilyrender/midterm.pdf assignment-print.pdf
+
+cp lilypond/*.midi ./midi-files
