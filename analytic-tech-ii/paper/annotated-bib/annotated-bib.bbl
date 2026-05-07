@@ -1,0 +1,1125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{rzewski-spontaneous-music}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e58a35d1e50189c59ca4266c7b706d4d}{%
+           family={Asplund},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{fullhash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{fullhashraw}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{bibnamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorbibnamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authornamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorfullhash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorfullhashraw}{e58a35d1e50189c59ca4266c7b706d4d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1/2}
+      \field{title}{Frederic Rzewski and Spontaneous Political Music}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{418\bibrangedash 441}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833713
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833713
+      \endverb
+    \endentry
+    \entry{soul-on-ice}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27501369cdf4b6f55758743eee36e944}{%
+           family={Cleaver},
+           familyi={C\bibinitperiod},
+           given={Eldridge},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{fullhash}{27501369cdf4b6f55758743eee36e944}
+      \strng{fullhashraw}{27501369cdf4b6f55758743eee36e944}
+      \strng{bibnamehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authorbibnamehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authornamehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authorfullhash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authorfullhashraw}{27501369cdf4b6f55758743eee36e944}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Soul On Ice}
+      \field{year}{1968}
+    \endentry
+    \entry{soledad-brother}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d12dfc62696df7cb2c5fd509f120451c}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Coward-MccCann}%
+      }
+      \strng{namehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{fullhash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{fullhashraw}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{bibnamehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authorbibnamehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authornamehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authorfullhash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authorfullhashraw}{d12dfc62696df7cb2c5fd509f120451c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Soledad Brother}
+      \field{year}{1972}
+    \endentry
+    \entry{oswald-review}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b403eec2d61d953f6434aaa53ced4cd}{%
+           family={Kutchins},
+           familyi={K\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{fullhash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{fullhashraw}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{bibnamehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authorbibnamehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authornamehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authorfullhash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authorfullhashraw}{6b403eec2d61d953f6434aaa53ced4cd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{issn}{00378046, 15456846}
+      \field{journaltitle}{Social Work}
+      \field{number}{4}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{120\bibrangedash 122}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/23711135
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/23711135
+      \endverb
+    \endentry
+    \entry{life-of-paper}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c48da334f0e3451e1cd67eb18665474a}{%
+           family={Luk},
+           familyi={L\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{fullhash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{fullhashraw}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{bibnamehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authorbibnamehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authornamehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authorfullhash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authorfullhashraw}{c48da334f0e3451e1cd67eb18665474a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Life of Paper: Letters and a poetics of living beyond captivity}
+      \field{year}{2018}
+    \endentry
+    \entry{letters-from-attica}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=3dff1d881a70def9b2b57db06efb4b8a}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=cc035c57a87038ecc283c173ad172741}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Chicago Review Press}%
+      }
+      \strng{namehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{fullhash}{94dd095c73088ab563b5227446c3b064}
+      \strng{fullhashraw}{94dd095c73088ab563b5227446c3b064}
+      \strng{bibnamehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authorbibnamehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authornamehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authorfullhash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authorfullhashraw}{94dd095c73088ab563b5227446c3b064}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Letters from Attica}
+      \field{year}{2022}
+    \endentry
+    \entry{prisoners-voices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ff1e5623464d0bfebd94b11f087b48a}{%
+           family={Metzer},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{fullhash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{fullhashraw}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{bibnamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorbibnamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authornamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorfullhash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorfullhashraw}{9ff1e5623464d0bfebd94b11f087b48a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Frederic Rzewski composed Coming Together and Attica in response to the 1971 uprising at the Attica Correctional Facility. The texts for the works draw upon testimonies of two men who participated in the riot: Samuel Melville and Richard X. Clark, respectively. Rzewski condemns the government crackdown on the uprising through representations of both prisoners and prison. In these and other works, the prisoner is a figure of suffering. Both Melville and Clark suffer through efforts to raise a voice about the hardships of incarceration only to have that voice break apart into fragments and silence. Prison emerges as a space of increasing confinement, conveyed by rigorous compositional schemes that tightly link individual sections and close them off in a larger sealed structure. The musical evocation of confinement along with the expression of psychological distress in the texts creates scenes of suffering. Through these scenes, Rzewski brings out the infliction of pain that scholars have viewed as a fundamental aspect of incarceration. The interaction between the critiques of incarceration and the compositional schemes in Coming Together and Attica is an example of how artists at the time (Steve Reich and sculptor Melvin Edwards) drew upon abstract idioms and materials in works that comment on contemporary political developments.}
+      \field{issn}{02779269, 15338347}
+      \field{journaltitle}{The Journal of Musicology}
+      \field{number}{1}
+      \field{title}{Prisoners’ Voices: Frederic Rzewski’s Coming Together and Attica}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{pp. 109\bibrangedash 139}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/48771517
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/48771517
+      \endverb
+    \endentry
+    \entry{image-post-attica}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02766ea2e22f70259cc831c65544d10b}{%
+           family={Munro-Bjorklund},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Vicky},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Social Justice/Global Options}%
+      }
+      \strng{namehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{fullhash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{fullhashraw}{02766ea2e22f70259cc831c65544d10b}
+      \strng{bibnamehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authorbibnamehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authornamehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authorfullhash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authorfullhashraw}{02766ea2e22f70259cc831c65544d10b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10431578}
+      \field{journaltitle}{Social Justice}
+      \field{number}{3 (45)}
+      \field{title}{Popular Cultural Images of Criminals and Prisoners since Attica}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{48\bibrangedash 70}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/29766619
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/29766619
+      \endverb
+    \endentry
+    \entry{attica-report}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a01d018c98eead0db1b05823cf00b77a}{%
+           family={{New York State Special Commission}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bantam Book}%
+      }
+      \strng{namehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{fullhash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{fullhashraw}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{bibnamehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authorbibnamehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authornamehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authorfullhash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authorfullhashraw}{a01d018c98eead0db1b05823cf00b77a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attica: The Official Report of the New York State Special Commission on Attica}
+      \field{year}{1972}
+    \endentry
+    \entry{oswald-attica}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=48caf2c061a3f97ff1a4574c1a2cab8b}{%
+           family={Oswald},
+           familyi={O\bibinitperiod},
+           given={Russell\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c27eba25ae59f0232b2f2db227a1b57d}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{fullhash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{fullhashraw}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{bibnamehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authorbibnamehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authornamehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authorfullhash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authorfullhashraw}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{editorbibnamehash}{c27eba25ae59f0232b2f2db227a1b57d}
+      \strng{editornamehash}{c27eba25ae59f0232b2f2db227a1b57d}
+      \strng{editorfullhash}{c27eba25ae59f0232b2f2db227a1b57d}
+      \strng{editorfullhashraw}{c27eba25ae59f0232b2f2db227a1b57d}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attica - My Story}
+      \field{year}{1972}
+    \endentry
+    \entry{rzewski-attica}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vinyl LP}
+      \field{title}{Attica}
+      \field{year}{1983}
+      \true{nocite}
+    \endentry
+    \entry{coming-together}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vinyl LP}
+      \field{title}{Coming Together}
+      \field{year}{1983}
+    \endentry
+    \entry{rzewski-inner-voices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1/2}
+      \field{title}{Inner Voices}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{404\bibrangedash 417}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833712
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833712
+      \endverb
+    \endentry
+    \entry{blood-in-water}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74bb1040eccc88044c29f3103571474d}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Heather\bibnamedelima Ann},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pantheon Books}%
+      }
+      \strng{namehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{fullhash}{74bb1040eccc88044c29f3103571474d}
+      \strng{fullhashraw}{74bb1040eccc88044c29f3103571474d}
+      \strng{bibnamehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authorbibnamehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authornamehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authorfullhash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authorfullhashraw}{74bb1040eccc88044c29f3103571474d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blood in the water: The attica prison uprising of 1971 and its legacy}
+      \field{year}{2016}
+    \endentry
+    \entry{attica-poems}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddb036109228ff7c2002eb41c588e4c3}{%
+           family={Tisdale},
+           familyi={T\bibinitperiod},
+           given={Celes},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{fullhash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{fullhashraw}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{bibnamehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authorbibnamehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authornamehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authorfullhash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authorfullhashraw}{ddb036109228ff7c2002eb41c588e4c3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{When the smoke cleared: Attica Prison Poems and journals}
+      \field{year}{2022}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{rzewski-spontaneous-music}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e58a35d1e50189c59ca4266c7b706d4d}{%
+           family={Asplund},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{fullhash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{fullhashraw}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{bibnamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorbibnamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authornamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorfullhash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorfullhashraw}{e58a35d1e50189c59ca4266c7b706d4d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1/2}
+      \field{title}{Frederic Rzewski and Spontaneous Political Music}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{418\bibrangedash 441}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833713
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833713
+      \endverb
+    \endentry
+    \entry{soul-on-ice}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27501369cdf4b6f55758743eee36e944}{%
+           family={Cleaver},
+           familyi={C\bibinitperiod},
+           given={Eldridge},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{fullhash}{27501369cdf4b6f55758743eee36e944}
+      \strng{fullhashraw}{27501369cdf4b6f55758743eee36e944}
+      \strng{bibnamehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authorbibnamehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authornamehash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authorfullhash}{27501369cdf4b6f55758743eee36e944}
+      \strng{authorfullhashraw}{27501369cdf4b6f55758743eee36e944}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Soul On Ice}
+      \field{year}{1968}
+    \endentry
+    \entry{soledad-brother}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d12dfc62696df7cb2c5fd509f120451c}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Coward-MccCann}%
+      }
+      \strng{namehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{fullhash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{fullhashraw}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{bibnamehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authorbibnamehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authornamehash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authorfullhash}{d12dfc62696df7cb2c5fd509f120451c}
+      \strng{authorfullhashraw}{d12dfc62696df7cb2c5fd509f120451c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Soledad Brother}
+      \field{year}{1972}
+    \endentry
+    \entry{oswald-review}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b403eec2d61d953f6434aaa53ced4cd}{%
+           family={Kutchins},
+           familyi={K\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{fullhash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{fullhashraw}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{bibnamehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authorbibnamehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authornamehash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authorfullhash}{6b403eec2d61d953f6434aaa53ced4cd}
+      \strng{authorfullhashraw}{6b403eec2d61d953f6434aaa53ced4cd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{issn}{00378046, 15456846}
+      \field{journaltitle}{Social Work}
+      \field{number}{4}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{120\bibrangedash 122}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/23711135
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/23711135
+      \endverb
+    \endentry
+    \entry{life-of-paper}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c48da334f0e3451e1cd67eb18665474a}{%
+           family={Luk},
+           familyi={L\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{fullhash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{fullhashraw}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{bibnamehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authorbibnamehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authornamehash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authorfullhash}{c48da334f0e3451e1cd67eb18665474a}
+      \strng{authorfullhashraw}{c48da334f0e3451e1cd67eb18665474a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Life of Paper: Letters and a poetics of living beyond captivity}
+      \field{year}{2018}
+    \endentry
+    \entry{letters-from-attica}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=3dff1d881a70def9b2b57db06efb4b8a}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=cc035c57a87038ecc283c173ad172741}{%
+           family={Melville},
+           familyi={M\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Chicago Review Press}%
+      }
+      \strng{namehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{fullhash}{94dd095c73088ab563b5227446c3b064}
+      \strng{fullhashraw}{94dd095c73088ab563b5227446c3b064}
+      \strng{bibnamehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authorbibnamehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authornamehash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authorfullhash}{94dd095c73088ab563b5227446c3b064}
+      \strng{authorfullhashraw}{94dd095c73088ab563b5227446c3b064}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Letters from Attica}
+      \field{year}{2022}
+    \endentry
+    \entry{prisoners-voices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ff1e5623464d0bfebd94b11f087b48a}{%
+           family={Metzer},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{fullhash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{fullhashraw}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{bibnamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorbibnamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authornamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorfullhash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorfullhashraw}{9ff1e5623464d0bfebd94b11f087b48a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Frederic Rzewski composed Coming Together and Attica in response to the 1971 uprising at the Attica Correctional Facility. The texts for the works draw upon testimonies of two men who participated in the riot: Samuel Melville and Richard X. Clark, respectively. Rzewski condemns the government crackdown on the uprising through representations of both prisoners and prison. In these and other works, the prisoner is a figure of suffering. Both Melville and Clark suffer through efforts to raise a voice about the hardships of incarceration only to have that voice break apart into fragments and silence. Prison emerges as a space of increasing confinement, conveyed by rigorous compositional schemes that tightly link individual sections and close them off in a larger sealed structure. The musical evocation of confinement along with the expression of psychological distress in the texts creates scenes of suffering. Through these scenes, Rzewski brings out the infliction of pain that scholars have viewed as a fundamental aspect of incarceration. The interaction between the critiques of incarceration and the compositional schemes in Coming Together and Attica is an example of how artists at the time (Steve Reich and sculptor Melvin Edwards) drew upon abstract idioms and materials in works that comment on contemporary political developments.}
+      \field{issn}{02779269, 15338347}
+      \field{journaltitle}{The Journal of Musicology}
+      \field{number}{1}
+      \field{title}{Prisoners’ Voices: Frederic Rzewski’s Coming Together and Attica}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{pp. 109\bibrangedash 139}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/48771517
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/48771517
+      \endverb
+    \endentry
+    \entry{image-post-attica}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02766ea2e22f70259cc831c65544d10b}{%
+           family={Munro-Bjorklund},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Vicky},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Social Justice/Global Options}%
+      }
+      \strng{namehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{fullhash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{fullhashraw}{02766ea2e22f70259cc831c65544d10b}
+      \strng{bibnamehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authorbibnamehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authornamehash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authorfullhash}{02766ea2e22f70259cc831c65544d10b}
+      \strng{authorfullhashraw}{02766ea2e22f70259cc831c65544d10b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10431578}
+      \field{journaltitle}{Social Justice}
+      \field{number}{3 (45)}
+      \field{title}{Popular Cultural Images of Criminals and Prisoners since Attica}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{48\bibrangedash 70}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/29766619
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/29766619
+      \endverb
+    \endentry
+    \entry{attica-report}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a01d018c98eead0db1b05823cf00b77a}{%
+           family={{New York State Special Commission}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bantam Book}%
+      }
+      \strng{namehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{fullhash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{fullhashraw}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{bibnamehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authorbibnamehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authornamehash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authorfullhash}{a01d018c98eead0db1b05823cf00b77a}
+      \strng{authorfullhashraw}{a01d018c98eead0db1b05823cf00b77a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attica: The Official Report of the New York State Special Commission on Attica}
+      \field{year}{1972}
+    \endentry
+    \entry{oswald-attica}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=48caf2c061a3f97ff1a4574c1a2cab8b}{%
+           family={Oswald},
+           familyi={O\bibinitperiod},
+           given={Russell\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c27eba25ae59f0232b2f2db227a1b57d}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{fullhash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{fullhashraw}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{bibnamehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authorbibnamehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authornamehash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authorfullhash}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{authorfullhashraw}{48caf2c061a3f97ff1a4574c1a2cab8b}
+      \strng{editorbibnamehash}{c27eba25ae59f0232b2f2db227a1b57d}
+      \strng{editornamehash}{c27eba25ae59f0232b2f2db227a1b57d}
+      \strng{editorfullhash}{c27eba25ae59f0232b2f2db227a1b57d}
+      \strng{editorfullhashraw}{c27eba25ae59f0232b2f2db227a1b57d}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attica - My Story}
+      \field{year}{1972}
+    \endentry
+    \entry{rzewski-attica}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vinyl LP}
+      \field{title}{Attica}
+      \field{year}{1983}
+      \true{nocite}
+    \endentry
+    \entry{coming-together}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vinyl LP}
+      \field{title}{Coming Together}
+      \field{year}{1983}
+    \endentry
+    \entry{rzewski-inner-voices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1/2}
+      \field{title}{Inner Voices}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{404\bibrangedash 417}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833712
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833712
+      \endverb
+    \endentry
+    \entry{blood-in-water}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74bb1040eccc88044c29f3103571474d}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Heather\bibnamedelima Ann},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pantheon Books}%
+      }
+      \strng{namehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{fullhash}{74bb1040eccc88044c29f3103571474d}
+      \strng{fullhashraw}{74bb1040eccc88044c29f3103571474d}
+      \strng{bibnamehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authorbibnamehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authornamehash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authorfullhash}{74bb1040eccc88044c29f3103571474d}
+      \strng{authorfullhashraw}{74bb1040eccc88044c29f3103571474d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blood in the water: The attica prison uprising of 1971 and its legacy}
+      \field{year}{2016}
+    \endentry
+    \entry{attica-poems}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddb036109228ff7c2002eb41c588e4c3}{%
+           family={Tisdale},
+           familyi={T\bibinitperiod},
+           given={Celes},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{fullhash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{fullhashraw}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{bibnamehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authorbibnamehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authornamehash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authorfullhash}{ddb036109228ff7c2002eb41c588e4c3}
+      \strng{authorfullhashraw}{ddb036109228ff7c2002eb41c588e4c3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{When the smoke cleared: Attica Prison Poems and journals}
+      \field{year}{2022}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

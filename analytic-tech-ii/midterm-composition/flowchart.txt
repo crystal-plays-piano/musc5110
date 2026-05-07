@@ -1,0 +1,21 @@
+this is a rhythm composition + LIVE pure data performance
+
+concept: using 1000ms "buffer" as markov bank for sound trigger at instant
+
+sketching:
+
+here is a buffer of 10 samples tracking impulses
+
+buffer_0 = [ 0 1 0 0 1 0 1 1 0 1 ]
+
+at this instant, the next note has a [number of impulses]/[number of samples] chance to trigger another impulse
+
+so P(buffer_0) = 5/10 = .5
+
+on trigger:
+
+a new impulse is marked and the buffer is "advanced" by trimming the "first" entry and adding a new entry.
+
+buffer_1 = [ 1 0 0 1 0 1 1 0 1 X[P(buffer_0)] ]
+
+where X is a random variable following the rules X[P,x] = { 1 if x < P, 0 otherwise}
