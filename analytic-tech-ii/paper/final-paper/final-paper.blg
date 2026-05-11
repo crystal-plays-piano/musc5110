@@ -1,0 +1,16 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'final-paper.blg'
+[44] biber:342> INFO - === Mon May 11, 2026, 09:47:59
+[55] Biber.pm:421> INFO - Reading 'final-paper.bcf'
+[118] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[127] Biber.pm:4487> INFO - Processing section 0
+[133] Biber.pm:4678> INFO - Looking for bibtex file '../bibliography.bib' for section 0
+[133] bibtex.pm:1713> INFO - LaTeX decoding ...
+[141] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography.bib'
+[207] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[207] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[208] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[208] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[208] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[218] bbl.pm:676> INFO - Writing 'final-paper.bbl' with encoding 'UTF-8'
+[221] bbl.pm:779> INFO - Output to final-paper.bbl

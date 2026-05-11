@@ -1,0 +1,416 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{rzewski-spontaneous-music}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e58a35d1e50189c59ca4266c7b706d4d}{%
+           family={Asplund},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{fullhash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{fullhashraw}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{bibnamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorbibnamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authornamehash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorfullhash}{e58a35d1e50189c59ca4266c7b706d4d}
+      \strng{authorfullhashraw}{e58a35d1e50189c59ca4266c7b706d4d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1/2}
+      \field{title}{Frederic Rzewski and Spontaneous Political Music}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{418\bibrangedash 441}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833713
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833713
+      \endverb
+    \endentry
+    \entry{sight-of-sound}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed03980c0203a280de168d2f4fcdd1f6}{%
+           family={Leppert},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{fullhash}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{fullhashraw}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{bibnamehash}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{authorbibnamehash}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{authornamehash}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{authorfullhash}{ed03980c0203a280de168d2f4fcdd1f6}
+      \strng{authorfullhashraw}{ed03980c0203a280de168d2f4fcdd1f6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The sight of sound: Music, representation, and the history of the body}
+      \field{year}{1995}
+    \endentry
+    \entry{prisoners-voices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ff1e5623464d0bfebd94b11f087b48a}{%
+           family={Metzer},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{fullhash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{fullhashraw}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{bibnamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorbibnamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authornamehash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorfullhash}{9ff1e5623464d0bfebd94b11f087b48a}
+      \strng{authorfullhashraw}{9ff1e5623464d0bfebd94b11f087b48a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Frederic Rzewski composed Coming Together and Attica in response to the 1971 uprising at the Attica Correctional Facility. The texts for the works draw upon testimonies of two men who participated in the riot: Samuel Melville and Richard X. Clark, respectively. Rzewski condemns the government crackdown on the uprising through representations of both prisoners and prison. In these and other works, the prisoner is a figure of suffering. Both Melville and Clark suffer through efforts to raise a voice about the hardships of incarceration only to have that voice break apart into fragments and silence. Prison emerges as a space of increasing confinement, conveyed by rigorous compositional schemes that tightly link individual sections and close them off in a larger sealed structure. The musical evocation of confinement along with the expression of psychological distress in the texts creates scenes of suffering. Through these scenes, Rzewski brings out the infliction of pain that scholars have viewed as a fundamental aspect of incarceration. The interaction between the critiques of incarceration and the compositional schemes in Coming Together and Attica is an example of how artists at the time (Steve Reich and sculptor Melvin Edwards) drew upon abstract idioms and materials in works that comment on contemporary political developments.}
+      \field{issn}{02779269, 15338347}
+      \field{journaltitle}{The Journal of Musicology}
+      \field{number}{1}
+      \field{title}{Prisoners’ Voices: Frederic Rzewski’s Coming Together and Attica}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{pp. 109\bibrangedash 139}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/48771517
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/48771517
+      \endverb
+    \endentry
+    \entry{piano-social-history}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4926b28da7b7e8c6a8748f0bcd1e8d1c}{%
+           family={Powers},
+           familyi={P\bibinitperiod},
+           given={Wendy},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Metropolitan Museum of Art}%
+      }
+      \strng{namehash}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{fullhash}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{fullhashraw}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{bibnamehash}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{authorbibnamehash}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{authornamehash}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{authorfullhash}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \strng{authorfullhashraw}{4926b28da7b7e8c6a8748f0bcd1e8d1c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Heilbrunn Timeline of Art History}
+      \field{month}{10}
+      \field{title}{The Piano: The Pianofortes of Bartolomeo Cristofori (1655–1731)}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.metmuseum.org/essays/the-piano-the-pianofortes-of-bartolomeo-cristofori-1655-1731
+      \endverb
+      \verb{url}
+      \verb https://www.metmuseum.org/essays/the-piano-the-pianofortes-of-bartolomeo-cristofori-1655-1731
+      \endverb
+    \endentry
+    \entry{rzewski-inner-voices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1/2}
+      \field{title}{Inner Voices}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{404\bibrangedash 417}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833712
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833712
+      \endverb
+    \endentry
+    \entry{nonsequiturs}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MusicTekte}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783980315180}
+      \field{title}{Nonsequiturs: Writings and lectures on improvisation, composition, and interpretation}
+      \field{year}{2007}
+      \true{nocite}
+    \endentry
+    \entry{rzewski-plays-rzewski}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d6b690858afa3f90aa3f3b2e3e7006a}{%
+           family={Rzewski},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nonesuch Records}%
+      }
+      \strng{namehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{fullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{bibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorbibnamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authornamehash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhash}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \strng{authorfullhashraw}{5d6b690858afa3f90aa3f3b2e3e7006a}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Liner notes}
+      \field{title}{Rzewski Plays Rzewski}
+      \field{year}{2002}
+    \endentry
+    \entry{london-social-piano}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d375456334b29686ed9c30ffb09e0a56}{%
+           family={SCOTT},
+           familyi={S\bibinitperiod},
+           given={DEREK\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{fullhash}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{fullhashraw}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{bibnamehash}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{authorbibnamehash}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{authornamehash}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{authorfullhash}{d375456334b29686ed9c30ffb09e0a56}
+      \strng{authorfullhashraw}{d375456334b29686ed9c30ffb09e0a56}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This essay looks at London in the second half of the nineteenth century, when features of musical life associated with a capitalist economy and the consolidation of power of a wealthy industrial bourgeoisie became firmly established. Prominent among such features, which are all closely related to the rapid increase in urban populations, were the commercialization and professionalization of music, new markets for cultural goods, a growing rift between art and entertainment, and the bourgeoisie's struggle for cultural domination.}
+      \field{issn}{09639268, 14698706}
+      \field{journaltitle}{Urban History}
+      \field{number}{1}
+      \field{title}{Music and social class in Victorian London}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{29}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{60\bibrangedash 73}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/44613294
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/44613294
+      \endverb
+    \endentry
+    \entry{we-shall-not-be-moved}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=659ca803933dd11c86405a63d7cc773e}{%
+           family={Spener},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Temple University Press}%
+      }
+      \strng{namehash}{659ca803933dd11c86405a63d7cc773e}
+      \strng{fullhash}{659ca803933dd11c86405a63d7cc773e}
+      \strng{fullhashraw}{659ca803933dd11c86405a63d7cc773e}
+      \strng{bibnamehash}{659ca803933dd11c86405a63d7cc773e}
+      \strng{authorbibnamehash}{659ca803933dd11c86405a63d7cc773e}
+      \strng{authornamehash}{659ca803933dd11c86405a63d7cc773e}
+      \strng{authorfullhash}{659ca803933dd11c86405a63d7cc773e}
+      \strng{authorfullhashraw}{659ca803933dd11c86405a63d7cc773e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Today in the United States, the mention of the words “September 11” or “9/11” conjure memories of terror, destruction, and lost innocence, a day in history when “the world changed” for the worse. In the memories of many Latin Americans, this date is associated with similar images and sentiments, but inspired by a quite different historical event: the day in 1973 in Chile that the democratically elected government of Salvador Allende was overthrown in a bloodycoup d’état ushering in a brutal military dictatorship led by General Augusto Pinochet that would last nearly two decades. The coup in Chile was}
+      \field{booktitle}{We Shall Not Be Moved/No nos moverán: Biography of a Song of Struggle}
+      \field{isbn}{9781439912973}
+      \field{title}{A Song, Socialism, and the 1973 Military Coup in Chile}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{17\bibrangedash 26}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/j.ctt1kft8ff.5
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/j.ctt1kft8ff.5
+      \endverb
+    \endentry
+    \entry{tonality-atonality}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c35108cd36ecccfa6650fb7d19963ec}{%
+           family={Wason},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Perspectives of New Music}%
+      }
+      \strng{namehash}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{fullhash}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{fullhashraw}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{bibnamehash}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{authorbibnamehash}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{authornamehash}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{authorfullhash}{5c35108cd36ecccfa6650fb7d19963ec}
+      \strng{authorfullhashraw}{5c35108cd36ecccfa6650fb7d19963ec}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00316016}
+      \field{journaltitle}{Perspectives of New Music}
+      \field{number}{1}
+      \field{title}{Tonality and Atonality in Frederic Rzewski's Variations on "The People United Will Never Be Defeated!"}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{26}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{108\bibrangedash 143}
+      \range{pages}{36}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/833319
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/833319
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
